@@ -6,7 +6,9 @@
   <div id="demo"></div>
   <script src="asciinema-player.min.js"></script>
   <script>
-    AsciinemaPlayer.create('asciinema.json', document.getElementById('demo'));
+    AsciinemaPlayer.create('asciinema.json', document.getElementById('demo'), {
+	theme: 'solarized-dark'
+    });
   </script>
 </body>
 </html>
